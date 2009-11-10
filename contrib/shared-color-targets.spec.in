@@ -1,0 +1,40 @@
+%define alphatag #ALPHATAG#
+
+Summary: Shared color targets for creating color profiles
+Name: shared-color-targets
+Version: #VERSION#
+Release: 1.#BUILD#%{?alphatag}%{?dist}
+URL: http://projects.gnome.org/gnome-color-manager/
+Source0: http://projects.gnome.org/gnome-color-manager/%{name}-%{version}.tar.gz
+License: GPLv2+
+Group: System Environment/Libraries
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+BuildArch: noarch
+
+Requires: automake
+
+%description 
+The shared-color-targets package contains various targets which are useful for
+programs that create ICC profiles.
+
+%prep
+%setup -q
+
+%build
+%configure
+
+%install
+rm -rf $RPM_BUILD_ROOT
+make install DESTDIR=$RPM_BUILD_ROOT
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%files
+%defattr(-,root,root,-)
+%doc AUTHORS COPYING ChangeLog
+%{_datadir}/color/targets/*.it87
+
+%changelog
+* #LONGDATE# Richard Hughes <richard@hughsie.com> #VERSION#-0.#BUILD##ALPHATAG#
+- Update from git

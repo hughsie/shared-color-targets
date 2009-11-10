@@ -1,0 +1,7 @@
+		             Color Targets
+	       Color targets from vendors for color calibration
+
+shared-color-targets contains target files for popular scanner calibration targets.
+
+These include the IT 8.7 targets at http://www.targets.coloraid.de/
+
