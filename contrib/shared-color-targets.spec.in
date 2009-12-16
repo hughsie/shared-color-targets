@@ -33,7 +33,16 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root,-)
 %doc AUTHORS COPYING ChangeLog
-%{_datadir}/color/targets/*.it87
+%{_datadir}/color/targets/*.it8
+
+# Wolf Faust
+%dir %{_datadir}/shared-color-targets/wolf_faust
+%{_datadir}/shared-color-targets/wolf_faust/*
+%dir %{_datadir}/color/targets/wolf_faust
+%dir %{_datadir}/color/targets/wolf_faust/reflective
+%{_datadir}/color/targets/wolf_faust/reflective/*.it8
+%dir %{_datadir}/color/targets/wolf_faust/transmissive
+%{_datadir}/color/targets/wolf_faust/transmissive/*.it8
 
 %changelog
 * #LONGDATE# Richard Hughes <richard@hughsie.com> #VERSION#-0.#BUILD##ALPHATAG#
