@@ -3,19 +3,21 @@
 Summary: Shared color targets for creating color profiles
 Name: shared-color-targets
 Version: #VERSION#
-Release: 1.#BUILD#%{?alphatag}%{?dist}
-URL: http://projects.gnome.org/gnome-color-manager/
-Source0: http://projects.gnome.org/gnome-color-manager/%{name}-%{version}.tar.gz
-License: GPLv2+
+Release: 0.#BUILD#%{?alphatag}%{?dist}
+URL: http://github.com/hughsie/shared-color-targets
+Source0: http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.gz
+License: GPLv2+ and Public Domain and CC-BY-SA
 Group: System Environment/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
 
-Requires: automake
+Requires: color-filesystem
 
 %description 
 The shared-color-targets package contains various targets which are useful for
 programs that create ICC profiles.
+This package only contains the free targets that can be safely distributed
+with Fedora.
 
 %prep
 %setup -q
@@ -32,8 +34,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
-%doc AUTHORS COPYING ChangeLog
+%doc AUTHORS COPYING
+%dir %{_datadir}/color/targets
 %{_datadir}/color/targets/*.it8
+%dir %{_datadir}/shared-color-targets
 
 # Wolf Faust
 %dir %{_datadir}/shared-color-targets/wolf_faust
