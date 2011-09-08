@@ -1,0 +1,17 @@
+Version 0.1.0
+~~~~~~~~~~~~~
+Released: 2011-09-08
+
+Notes:
+ - This is the first official supported release of shared-color-targets.
+ - Using this package will allow you to create color profiles without
+   finding the floppy or CD media that came with your target.
+ - At the moment, only targets from http://www.targets.coloraid.de/
+   are supported, although other vendors are more than welcome to submit
+   test data. Contact me for more details.
+
+New Features:
+ - Add the latest it8 reference files from Wolf Faust (Richard Hughes)
+
+Bugfixes:
+ - Update the Free Software Foundation address (Richard Hughes)

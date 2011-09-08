@@ -1,8 +1,11 @@
 AC_PREREQ(2.65)
 
-AC_INIT([shared-color-targets],[0.0.2],[richard@hughsie.com])
-AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
+AC_INIT([shared-color-targets],[0.1.0],[richard@hughsie.com])
 AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIR([m4])
+AC_CONFIG_AUX_DIR([build-aux])
+AM_INIT_AUTOMAKE([1.11 no-dist-gzip dist-xz tar-ustar])
+AM_SILENT_RULES([yes])
 
 AC_PROG_CC
 AC_PROG_LN_S

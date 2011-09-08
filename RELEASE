@@ -1,0 +1,52 @@
+Shared Color Targets Release Notes
+
+* Write NEWS entries in the same format as usual.
+
+git shortlog shared_color_targets_0_1_0.. | grep -i -v trivial | grep -v Merge > NEWS.new
+
+--------------------------------------------------------------------------------
+Version 0.1.0
+~~~~~~~~~~~~~
+Released: 2011-xx-xx
+
+Notes:
+
+New Features:
+
+Bugfixes:
+--------------------------------------------------------------------------------
+
+* Commit changes in git:
+
+git commit -a -m "Release version 0.1.0"
+git tag -s -f -m "Release 0.1.0" SHARED_COLOR_TARGETS_0_1_0
+<gpg password>
+git push --tags
+git push
+
+* run 'make dist'
+
+* Upload tarball to:
+
+scp *.tar.* hughsient@people.freedesktop.org:public_html/releases/
+
+* Do post release version bump in configure.ac
+
+* Commit trivial changes:
+
+git commit -a -m "trivial: post release version bump"
+git push
+
+* Send an email to colord@lists.freedesktop.org
+
+=================================================
+shared-color-targets 0.1.0 released!
+
+shared-color-targets contains target files for popular scanner calibration targets.
+
+These include the IT 8.7 targets from http://www.targets.coloraid.de/
+
+Tarballs available here: http://people.freedesktop.org/~hughsient/releases/
+
+=================================================
+

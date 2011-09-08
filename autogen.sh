@@ -27,7 +27,7 @@ fi
 
 (cd $srcdir && autoreconf --force --install) || exit 1
 
-conf_flags="--enable-gtk-doc"
+conf_flags=""
 
 if test x$NOCONFIGURE = x; then
   echo Running $srcdir/configure $conf_flags "$@" ...

@@ -5,19 +5,18 @@ Name: shared-color-targets
 Version: #VERSION#
 Release: 0.#BUILD#%{?alphatag}%{?dist}
 URL: http://github.com/hughsie/shared-color-targets
-Source0: http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.gz
+Source0: http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
 License: GPLv2+ and Public Domain and CC-BY-SA
 Group: System Environment/Libraries
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
 
 Requires: color-filesystem
 
 %description 
-The shared-color-targets package contains various targets which are useful for
-programs that create ICC profiles.
-This package only contains the free targets that can be safely distributed
-with Fedora.
+The shared-color-targets package contains various targets which are
+useful for programs that create ICC profiles.
+This package only contains the free targets that can be safely
+distributed with Fedora.
 
 %prep
 %setup -q

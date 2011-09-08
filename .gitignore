@@ -5,7 +5,7 @@ autom4te.cache
 ChangeLog
 config.guess
 config.h
-config.h.in
+config.h.in*
 config.log
 config.status
 config.sub
@@ -24,4 +24,4 @@ INSTALL
 *.tar.bz2
 stamp-h1
 *.m4
-
+NEWS.new
