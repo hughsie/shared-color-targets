@@ -1,6 +1,6 @@
 AC_PREREQ(2.65)
 
-AC_INIT([shared-color-targets],[0.0.1],[richard@hughsie.com])
+AC_INIT([shared-color-targets],[0.0.2],[richard@hughsie.com])
 AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
 AC_CONFIG_HEADERS([config.h])
 

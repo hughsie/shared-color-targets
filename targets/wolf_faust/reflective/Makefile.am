@@ -58,7 +58,19 @@ targets_DATA =						\
 	R090702.it8					\
 	R090702WhiteBacking.it8				\
 	R090703.it8					\
-	R090703WhiteBacking.it8
+	R090703WhiteBacking.it8				\
+	R100204.it8					\
+	R100204WhiteBacking.it8				\
+	R100205.it8					\
+	R100205WhiteBacking.it8				\
+	R100604.it8					\
+	R100604WhiteBacking.it8				\
+	R101001.it8					\
+	R101001WhiteBacking.it8				\
+	R101208.it8					\
+	R101208WhiteBacking.it8				\
+	R110112.it8					\
+	R110112WhiteBacking.it8
 
 EXTRA_DIST =						\
 	$(targets_DATA)
