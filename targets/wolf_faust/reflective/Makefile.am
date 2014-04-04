@@ -87,7 +87,9 @@ targets_DATA =						\
 	R130227WhiteBacking.it8				\
 	R130730.it8 					\
 	R130730WhiteBacking.it8				\
-	R131007WhiteBacking.it8
+	R131007WhiteBacking.it8				\
+	R131030.it8					\
+	R131030WhiteBacking.it8
 
 EXTRA_DIST =						\
 	$(targets_DATA)
