@@ -1,6 +1,6 @@
 AC_PREREQ(2.65)
 
-AC_INIT([shared-color-targets],[0.1.4],[richard@hughsie.com])
+AC_INIT([shared-color-targets],[0.1.5],[richard@hughsie.com])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_AUX_DIR([build-aux])
