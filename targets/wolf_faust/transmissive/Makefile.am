@@ -61,6 +61,9 @@ targets_DATA =						\
 	E130315.it8					\
 	E130401.it8					\
 	E131102.it8					\
+	E140430.it8					\
+	E141011.it8					\
+	E141027.it8					\
 	F020430.it8					\
 	F040218.it8					\
 	F040425.it8					\
@@ -82,6 +85,7 @@ targets_DATA =						\
 	F120911.it8					\
 	F130405.it8					\
 	F140203.it8					\
+	F140601.it8					\
 	N031018.it8					\
 	N040401.it8					\
 	N040601.it8					\
@@ -103,6 +107,7 @@ targets_DATA =						\
 	N121111.it8					\
 	N130501.it8					\
 	N140131.it8					\
+	N140903.it8					\
 	V030302.it8					\
 	V030303.it8					\
 	V040102.it8					\
@@ -138,7 +143,9 @@ targets_DATA =						\
 	V130214.it8					\
 	V130608.it8					\
 	V131103.it8					\
-	V140202.it8
+	V140202.it8					\
+	V140410.it8					\
+	V141121.it8
 
 EXTRA_DIST =						\
 	$(targets_DATA)
