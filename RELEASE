@@ -5,7 +5,7 @@ Shared Color Targets Release Notes
 git shortlog SHARED_COLOR_TARGETS_0_1_5.. | grep -i -v trivial | grep -v Merge > NEWS.new
 
 --------------------------------------------------------------------------------
-Version 0.1.6
+Version 0.1.7
 ~~~~~~~~~~~~~
 Released: 2015-xx-xx
 
@@ -18,8 +18,8 @@ Bugfixes:
 
 * Commit changes in git:
 
-git commit -a -m "Release version 0.1.6"
-git tag -s -f -m "Release 0.1.6" SHARED_COLOR_TARGETS_0_1_6
+git commit -a -m "Release version 0.1.7"
+git tag -s -f -m "Release 0.1.7" SHARED_COLOR_TARGETS_0_1_7
 <gpg password>
 git push --tags
 git push
