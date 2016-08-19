@@ -2,10 +2,10 @@ Shared Color Targets Release Notes
 
 * Write NEWS entries in the same format as usual.
 
-git shortlog SHARED_COLOR_TARGETS_0_1_6.. | grep -i -v trivial | grep -v Merge > NEWS.new
+git shortlog SHARED_COLOR_TARGETS_0_1_7.. | grep -i -v trivial | grep -v Merge > NEWS.new
 
 --------------------------------------------------------------------------------
-Version 0.1.7
+Version 0.1.8
 ~~~~~~~~~~~~~
 Released: 2016-xx-xx
 
@@ -18,8 +18,8 @@ Bugfixes:
 
 * Commit changes in git:
 
-git commit -a -m "Release version 0.1.7"
-git tag -s -f -m "Release 0.1.7" SHARED_COLOR_TARGETS_0_1_7
+git commit -a -m "Release version 0.1.8"
+git tag -s -f -m "Release 0.1.8" SHARED_COLOR_TARGETS_0_1_8
 <gpg password>
 git push --tags
 git push
@@ -40,7 +40,7 @@ git push
 * Send an email to colord@lists.freedesktop.org
 
 =================================================
-shared-color-targets 0.1.6 released!
+shared-color-targets 0.1.8 released!
 
 shared-color-targets contains target files for popular scanner calibration targets.
 
