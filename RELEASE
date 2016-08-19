@@ -2,12 +2,12 @@ Shared Color Targets Release Notes
 
 * Write NEWS entries in the same format as usual.
 
-git shortlog SHARED_COLOR_TARGETS_0_1_5.. | grep -i -v trivial | grep -v Merge > NEWS.new
+git shortlog SHARED_COLOR_TARGETS_0_1_6.. | grep -i -v trivial | grep -v Merge > NEWS.new
 
 --------------------------------------------------------------------------------
 Version 0.1.7
 ~~~~~~~~~~~~~
-Released: 2015-xx-xx
+Released: 2016-xx-xx
 
 Notes:
 
